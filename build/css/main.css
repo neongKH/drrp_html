@@ -3996,7 +3996,7 @@ input[type="radio"].visually-hidden {
     display: none; } }
 
 .read-mode {
-  margin-bottom: 55px; }
+  margin-bottom: 20px; }
   .read-mode__wrapper {
     display: -ms-flexbox;
     display: flex;
@@ -4013,8 +4013,8 @@ input[type="radio"].visually-hidden {
     margin-bottom: 35px;
     max-width: 420px; }
   .read-mode__img {
-    width: 479px;
-    height: 378px; }
+    width: 480px;
+    height: 480px; }
     .read-mode__img img {
       width: 100%;
       height: 100%; }
@@ -4024,12 +4024,12 @@ input[type="radio"].visually-hidden {
     margin-bottom: 20px; }
   .read-mode__img {
     width: 420px;
-    height: 340px; } }
+    height: 420px; } }
 
 @media (max-width: 767.98px) {
   .read-mode__img {
-    width: 340px;
-    height: 270px; } }
+    width: 320px;
+    height: 320px; } }
 
 .qr-app {
   margin-bottom: 70px; }

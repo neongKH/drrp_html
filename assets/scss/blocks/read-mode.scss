@@ -1,5 +1,5 @@
 .read-mode {
-    margin-bottom: 55px;
+    margin-bottom: 20px;
     &__wrapper {
         display: flex;
         flex-direction: column;
@@ -20,8 +20,8 @@
     }
 
     &__img {
-        width: 479px;
-        height: 378px;
+        width: 480px;
+        height: 480px;
 
         img {
             width: 100%;
@@ -38,7 +38,7 @@
 
         &__img {
             width: 420px;
-            height: 340px;
+            height: 420px;
         }
     }
 }
@@ -46,8 +46,8 @@
 @include media-breakpoint-down(sm) {
     .read-mode {
         &__img {
-            width: 340px;
-            height: 270px;
+            width: 320px;
+            height: 320px;
         }
     }
 }
