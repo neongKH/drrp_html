@@ -1,0 +1,108 @@
+@@include('template/head.html', {
+	"pagetitle": "Главная страница",
+	"bodyclass": ""
+})
+
+@@include('template/page-header.html',{
+	"active_item": "",
+	"logged": "false"
+})
+
+<div id="page-container">
+ 	<div class="main-banner">
+		<div class="container">
+			<div class="main-banner__wrapper">
+				<h1 class="main-banner__title">
+					Перший в країні мобільний <br>
+					реєстр нерухомості 
+				</h1>
+				<p class="main-banner__text">
+					Додаток дозволяє у реальному часі отримувати актуальну інформацію з державного реєстру речових прав на нерухоме майно. Інформація надається у вигляді витягу (PDF-файл)
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="download-app">
+		<div class="container">
+			<div class="download-app__wrapper">
+				<div class="download-app__content">
+					<div class="download-app__content-title">
+						Завантажуйте додаток на свій смартфон
+					</div>
+					<div class="download-app__content-row">
+						<div class="download-app__content-btn">
+							<a href="#">
+								<img src="img/app-store-btn.svg" alt="">
+							</a>
+						</div>
+						<div class="download-app__content-btn">
+							<a href="#">
+								<img src="img/google-play-btn.svg" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="download-app__content-img">
+					<img src="img/download-app-img.png" alt="">
+				</div>
+				<div class="download-app__content-img-mobile">
+					<img src="img/download-app-img-mob.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="read-mode">
+		<div class="container">
+			<div class="read-mode__wrapper">
+				<div class="read-mode__title">Сервіс працює у режимі читання навіть без інтернету</div>
+				<div class="read-mode__img">
+					<img src="img/read-mode-img.png" alt="">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="qr-app">
+		<div class="container">
+			<div class="qr-app__row">
+				<div class="qr-app__item">
+					<div class="qr-app__item-img">
+						<img src="img/qr-appstore.svg" alt="">
+					</div>
+					<div class="qr-app__item-content">
+						<div class="qr-app__item-content-title">IOS Додаток</div>
+						<div class="qr-app__item-content-text">Відскануйте QR-код та завантажте додаток в App Store</div>
+						<div class="qr-app__item-content-download">
+							<a href="#">
+								<img src="img/app-store-btn-bordered.svg" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="qr-app__item">
+					<div class="qr-app__item-img">
+						<img src="img/qr-appstore.svg" alt="">
+					</div>
+					<div class="qr-app__item-content">
+						<div class="qr-app__item-content-title">Android Додаток</div>
+						<div class="qr-app__item-content-text">Відскануйте QR-код та завантажте додаток в Play Market</div>
+						<div class="qr-app__item-content-download">
+							<a href="#">
+								<img src="img/google-play-btn-bordered.svg" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+@@include('template/page-footer.html')
+@@include('template/popups.html')
+
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/plugins.min.js"></script>
+<script src="js/main.min.js"></script>
+
+</body>
+</html>
