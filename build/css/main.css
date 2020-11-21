@@ -4113,6 +4113,8 @@ input[type="radio"].visually-hidden {
     .qr-app__item:not(:last-child) {
       margin-bottom: 20px; }
   .qr-app__item-content-text {
+    display: none; }
+  .qr-app__item-content-title {
     margin-bottom: 25px; } }
 
 .breadcrumbs {

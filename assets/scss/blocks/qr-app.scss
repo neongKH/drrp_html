@@ -135,6 +135,10 @@
         }
 
         &__item-content-text {
+            display: none;
+        }
+
+        &__item-content-title {
             margin-bottom: 25px;
         }
     }
